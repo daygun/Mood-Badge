@@ -4097,11 +4097,11 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="GND8" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SW2" library="LinnesLab-Switches" deviceset="SWITCH.JS202011JXQN" device="UPWARDS"/>
 <part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
-<part name="U2" library="LinnesLab-Power" deviceset="MIC550X" device="" package3d_urn="urn:adsk.eagle:package:15662427/2"/>
+<part name="LDO1" library="LinnesLab-Power" deviceset="MIC550X" device="" package3d_urn="urn:adsk.eagle:package:15662427/2"/>
 <part name="SUPPLY6" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
 <part name="SUPPLY7" library="LinnesLab-Symbols" deviceset="VIN" device=""/>
-<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2"/>
-<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2"/>
+<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
+<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
 <part name="GND9" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND10" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND11" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -4110,10 +4110,31 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="GND12" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="D2" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
 <part name="SUPPLY9" library="LinnesLab-Symbols" deviceset="VUSB" device=""/>
-<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2"/>
+<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
 <part name="GND13" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
-<part name="U3" library="LinnesLab-Power" deviceset="MCP73831" device=".SOT23-5" package3d_urn="urn:adsk.eagle:package:18172171/2"/>
+<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
+<part name="CHRG1" library="LinnesLab-Power" deviceset="MCP73831" device=".SOT23-5" package3d_urn="urn:adsk.eagle:package:18172171/2"/>
+<part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
+<part name="GND14" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="GND15" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="GND16" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="R3" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
+<part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
+<part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SW3" library="LinnesLab-Switches" deviceset="SWITCH.JS202011JXQN" device="UPWARDS"/>
+<part name="SUPPLY11" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
+<part name="SW4" library="LinnesLab-Switches" deviceset="SPST.KT11P4SM34LFS" device=""/>
+<part name="SW5" library="LinnesLab-Switches" deviceset="SPST.KT11P4SM34LFS" device=""/>
+<part name="SW6" library="LinnesLab-Switches" deviceset="SPST.KT11P4SM34LFS" device=""/>
+<part name="SUPPLY12" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
+<part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY13" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="R6" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
+<part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY14" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="GND20" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4218,7 +4239,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <attribute name="NAME" x="2.54" y="-46.228" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="2.54" y="-50.292" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="U2" gate="G$1" x="53.34" y="-53.34" smashed="yes">
+<instance part="LDO1" gate="G$1" x="53.34" y="-53.34" smashed="yes">
 <attribute name="NAME" x="45.72" y="-44.45" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="-63.5" size="1.778" layer="96"/>
 </instance>
@@ -4273,9 +4294,81 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <attribute name="NAME" x="39.1414" y="-105.41" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="-105.41" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U3" gate="G$1" x="60.96" y="-96.52" smashed="yes">
-<attribute name="NAME" x="53.34" y="-90.932" size="1.778" layer="95"/>
+<instance part="CHRG1" gate="G$1" x="60.96" y="-96.52" smashed="yes">
+<attribute name="NAME" x="50.8" y="-90.932" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="-104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="93.98" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="93.98" y="-88.646" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND14" gate="G$1" x="73.66" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="73.66" y="-117.094" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND15" gate="G$1" x="83.82" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="83.82" y="-117.094" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND16" gate="G$1" x="93.98" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="93.98" y="-117.094" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="83.82" y="-106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.3214" y="-110.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="87.122" y="-110.49" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C8" gate="G$1" x="93.98" y="-104.14" smashed="yes">
+<attribute name="NAME" x="95.504" y="-101.219" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.504" y="-106.299" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="G$1" x="208.28" y="-76.2" smashed="yes">
+<attribute name="VALUE" x="208.28" y="-76.454" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SW3" gate="G$1" x="259.08" y="-111.76" smashed="yes">
+<attribute name="NAME" x="259.08" y="-103.886" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="259.08" y="-122.174" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="238.76" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="238.76" y="-48.006" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="208.28" y="-66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="-69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="211.582" y="-69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SW4" gate="G$1" x="200.66" y="-101.6" smashed="yes">
+<attribute name="NAME" x="198.12" y="-104.14" size="1.27" layer="95"/>
+<attribute name="VALUE" x="198.12" y="-106.68" size="1.27" layer="96"/>
+</instance>
+<instance part="SW5" gate="G$1" x="198.12" y="-58.42" smashed="yes">
+<attribute name="NAME" x="195.58" y="-60.96" size="1.27" layer="95"/>
+<attribute name="VALUE" x="195.58" y="-63.5" size="1.27" layer="96"/>
+</instance>
+<instance part="SW6" gate="G$1" x="246.38" y="-55.88" smashed="yes">
+<attribute name="NAME" x="243.84" y="-58.42" size="1.27" layer="95"/>
+<attribute name="VALUE" x="243.84" y="-60.96" size="1.27" layer="96"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="190.5" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-48.006" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="259.08" y="-66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="257.5814" y="-69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="262.382" y="-69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="G$1" x="259.08" y="-76.2" smashed="yes">
+<attribute name="VALUE" x="259.08" y="-76.454" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="190.5" y="-96.52" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-93.726" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="208.28" y="-114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="-118.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="211.582" y="-118.11" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND19" gate="G$1" x="208.28" y="-124.46" smashed="yes">
+<attribute name="VALUE" x="208.28" y="-124.714" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="271.78" y="-104.14" smashed="yes">
+<attribute name="VALUE" x="271.78" y="-101.346" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND20" gate="G$1" x="271.78" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="271.78" y="-117.094" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4351,7 +4444,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <segment>
 <pinref part="GND10" gate="G$1" pin="GND"/>
 <wire x1="40.64" y1="-66.04" x2="40.64" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="LDO1" gate="G$1" pin="GND"/>
 <wire x1="40.64" y1="-53.34" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4373,6 +4466,43 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <pinref part="GND13" gate="G$1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="-109.22" x2="25.4" y2="-104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="G$1" pin="GND"/>
+<wire x1="73.66" y1="-114.3" x2="73.66" y2="-99.06" width="0.1524" layer="91"/>
+<pinref part="CHRG1" gate="G$1" pin="VSS"/>
+<wire x1="73.66" y1="-99.06" x2="71.12" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="G$1" pin="GND"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-114.3" x2="83.82" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="G$1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-114.3" x2="93.98" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="G$1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-73.66" x2="208.28" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="G$1" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="-73.66" x2="259.08" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="G$1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-121.92" x2="208.28" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="G$1" pin="GND"/>
+<wire x1="271.78" y1="-114.3" x2="271.78" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="3"/>
+<wire x1="271.78" y1="-111.76" x2="264.16" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4463,10 +4593,34 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <wire x1="68.58" y1="-53.34" x2="68.58" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="OUT"/>
+<pinref part="LDO1" gate="G$1" pin="OUT"/>
 <wire x1="68.58" y1="-48.26" x2="68.58" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-48.26" x2="68.58" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="68.58" y="-48.26"/>
+</segment>
+<segment>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+<wire x1="190.5" y1="-50.8" x2="190.5" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="SW5" gate="G$1" pin="A"/>
+<wire x1="190.5" y1="-58.42" x2="193.04" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW6" gate="G$1" pin="A"/>
+<wire x1="241.3" y1="-55.88" x2="238.76" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="238.76" y1="-55.88" x2="238.76" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW4" gate="G$1" pin="A"/>
+<wire x1="195.58" y1="-101.6" x2="190.5" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+<wire x1="190.5" y1="-101.6" x2="190.5" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="-106.68" x2="271.78" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
+<wire x1="271.78" y1="-106.68" x2="271.78" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -4486,6 +4640,13 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <pinref part="U1" gate="U$1" pin="PC0(ADC0)"/>
 <wire x1="73.66" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
 <label x="81.28" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="SW5" gate="G$1" pin="B"/>
+<wire x1="208.28" y1="-60.96" x2="208.28" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-58.42" x2="203.2" y2="-58.42" width="0.1524" layer="91"/>
+<label x="210.82" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LD8" class="0">
@@ -4554,12 +4715,26 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <wire x1="73.66" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <label x="83.82" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-109.22" x2="208.28" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="SW4" gate="G$1" pin="B"/>
+<wire x1="208.28" y1="-101.6" x2="205.74" y2="-101.6" width="0.1524" layer="91"/>
+<label x="210.82" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RIGHT" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="ADC7"/>
 <wire x1="73.66" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <label x="83.82" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="-60.96" x2="259.08" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="SW6" gate="G$1" pin="B"/>
+<wire x1="259.08" y1="-55.88" x2="251.46" y2="-55.88" width="0.1524" layer="91"/>
+<label x="261.62" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -4627,6 +4802,11 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <pinref part="U1" gate="U$1" pin="D5/PD5(T1)"/>
 <wire x1="73.66" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <label x="83.82" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SW3" gate="G$1" pin="2"/>
+<wire x1="254" y1="-109.22" x2="248.92" y2="-109.22" width="0.1524" layer="91"/>
+<label x="246.38" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LD16" class="0">
@@ -4757,11 +4937,20 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <wire x1="-30.48" y1="-45.72" x2="-30.48" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="-30.48" y="-50.8"/>
 </segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY10" gate="G$1" pin="VLIPO"/>
+<wire x1="93.98" y1="-99.06" x2="93.98" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="CHRG1" gate="G$1" pin="VBAT"/>
+<wire x1="93.98" y1="-93.98" x2="93.98" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-93.98" x2="93.98" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="93.98" y="-93.98"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="U2" gate="G$1" pin="IN"/>
+<pinref part="LDO1" gate="G$1" pin="IN"/>
 <wire x1="7.62" y1="-48.26" x2="17.78" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VIN"/>
 <wire x1="17.78" y1="-48.26" x2="25.4" y2="-48.26" width="0.1524" layer="91"/>
@@ -4769,7 +4958,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <wire x1="38.1" y1="-48.26" x2="43.18" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-43.18" x2="17.78" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="17.78" y="-48.26"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="LDO1" gate="G$1" pin="EN"/>
 <wire x1="43.18" y1="-58.42" x2="38.1" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-58.42" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="38.1" y="-48.26"/>
@@ -4786,7 +4975,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="-96.52" x2="25.4" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="25.4" y="-93.98"/>
-<pinref part="U3" gate="G$1" pin="VIN"/>
+<pinref part="CHRG1" gate="G$1" pin="VIN"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-96.52" x2="40.64" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="40.64" y="-93.98"/>
@@ -4801,6 +4990,22 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <wire x1="-20.32" y1="-93.98" x2="-7.62" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-91.44" x2="-20.32" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-93.98"/>
+</segment>
+</net>
+<net name="CHRG.STAT" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="-106.68" x2="40.64" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-124.46" x2="48.26" y2="-124.46" width="0.1524" layer="91"/>
+<label x="53.34" y="-124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="CHRG1" gate="G$1" pin="PROG"/>
+<wire x1="83.82" y1="-101.6" x2="83.82" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-96.52" x2="71.12" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
